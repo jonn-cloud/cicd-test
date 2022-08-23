@@ -4,7 +4,9 @@ WORKDIR /app
 
 COPY package.json .
 
-RUN git submodule update --init --remote
+RUN git submodule update --init --recursive
+
+RUN git submodule update --recursive
 
 RUN npm install
 
