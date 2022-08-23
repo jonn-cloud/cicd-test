@@ -56,7 +56,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: workflow-test/dockerfile
+          file: /workflow-test/dockerfile
           push: true
           tags: jon09/github-actions:latest
           secrets: |
