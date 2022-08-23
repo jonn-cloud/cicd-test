@@ -4,9 +4,9 @@ WORKDIR /app
 
 COPY package.json .
 
-RUN git submodule add git@github.com:jonn-cloud/workflow-test.git
+# RUN git submodule add git@github.com:jonn-cloud/workflow-test.git
 
-RUN git submodule update --recursive
+# RUN git submodule update --recursive
 
 RUN npm install
 
