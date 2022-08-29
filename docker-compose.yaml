@@ -2,6 +2,6 @@ version: '3'
 
 services:
   service1:
-    build: ./actions-test
+    build: ./cicd-test
   service2:
     build: ../workflow-test
