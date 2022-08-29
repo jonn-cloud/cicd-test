@@ -24,7 +24,6 @@ jobs:
         with:
           token: ${{ secrets.G_ACCESS_TOKEN }}
           submodules: recursive
-          # lfs: true
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
